@@ -4,3 +4,10 @@ export interface ButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
 }
+
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: { street: string; city: string; zipcode: string };
+}
